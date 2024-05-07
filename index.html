@@ -1,0 +1,38 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+       <link https://coolors.co/palette/03045e-0077b6-00b4d8-90e0ef-caf0f8>
+    </head>
+    <body>
+          <h1> BASKETBALL SCORE</h1>
+        <div class="container">
+            <div>
+                <span id= "num1-el"></span>
+                <span id= "num2-el"></span>
+                <span id= "num3-el"></span>
+            </div>
+            <div>
+                <h3 class="hg">HOME</h3>
+                <span id="homescore-el">0</span>
+                <br>
+                <button class= "button" onclick="add1()"> +1 </button>
+                <button class= "button" onclick="add2()"> +2 </button>
+                <button class= "button" onclick="add3()"> +3 </button>
+                </br>
+            </div> 
+            <div>
+                <h3 class="hg">GUEST</h3>
+                 <span id="guestscore-el">0</span>
+                <br>
+                <button class= "button" onclick="ad1()"> +1 </button>
+                <button class= "button" onclick="ad2()"> +2 </button>
+                <button class= "button" onclick="ad3()"> +3 </button>
+                </br>
+            </div>
+        </div>
+            <button class= "reset-btn" onclick ="reset()">NEW SCORE</button>
+        <script src="index.js"></script>
+    </body>
+</html>
+
+ 
